@@ -1,0 +1,43 @@
+*{
+		margin:0px;
+		padding: 0px;
+	}
+	ul{
+		list-style-type: none;
+	}
+	body{
+
+	}
+	div{
+		background: green;
+		text-align: center;
+		padding: 20px;
+		height: 85px;
+		width: 100%;
+
+	}
+	li:nth-child(even){
+	background: yellow;
+	}
+	li:nth-child(odd){
+	background: indigo;
+	}
+	li{
+		padding: 25px;
+		text-transform:uppercase;
+		transition: 1s;
+	}
+	li:hover{
+		background: blue;
+	}
+	.close{
+		float: right;
+		cursor: pointer;
+	}
+	.checked{
+		text-decoration: line-through;
+		color: red;
+	}
+	.checked:before{
+		 content: "\2714";
+	}
